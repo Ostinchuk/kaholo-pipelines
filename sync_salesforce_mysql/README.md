@@ -16,6 +16,17 @@ This pipeline synchronizes data between Salesforce object and a corresponding ta
 3. Slack instance (optionally):
     - [incoming webhook URL](https://api.slack.com/messaging/webhooks)
 
+## Vault items
+
+The pipeline uses the following list of credentials (should be created in Vault):
+
+- SALESFORCE_PASSWORD
+- SALESFORCE_TOKEN
+- SALESFORCE_USERNAME
+- SALESFORCE_URL
+- MYSQL_CONNECTION_STRING
+- SLACK_INCOMING_WEBHOOK
+
 ## Pipeline configuration
 
 You can find a default configuration object `SF_MySQL_config` in "Configurations" tab. You can adjust it to your needs.
