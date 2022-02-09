@@ -1,3 +1,3 @@
 # Kaholo pipelines
 
-1. [Synchronize Salesforce with MySQL](sync_salesforce_mysql/)
+1. [Migrate Salesforce data to MySQL database](sf2mysql/)
