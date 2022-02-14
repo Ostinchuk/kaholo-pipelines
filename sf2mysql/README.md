@@ -1,6 +1,6 @@
 # Migrate Salesforce data to MySQL database
 
-The pipeline migrates data from Salesforce to a MySQL database.
+This template is for creating a pipeline that migrates data from Salesforce object to a MySQL database. A user specifies a Salesforce object and a list of fields to be migrated to the database. The pipeline queries data from specified Salesforce object, creates a table, transfroms and inserts data, sends a Slack notification.
 
 ![salesforce_mysql_pipeline](../images/sf2mysql.png)
 
@@ -61,3 +61,13 @@ Example:
     ]
 }
 ```
+
+## Plugins
+
+1. Salesforce
+2. MySQL
+3. Slack
+
+## Category
+
+Data Engineering
