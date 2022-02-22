@@ -4,7 +4,7 @@
 
 ## Intro
 
-This simple pipeline consists of five actions that identifies IP address, get location data (latitude and longitude) based on IP and gets the current weather and city based on the location.
+The pipeline consists of five actions that identifies IP address, get location data (latitude and longitude) based on IP and gets the current weather and city based on the location.
 
 We will cover the following functionality:  
 
@@ -21,7 +21,7 @@ Create a free account in [Weatherbit.io](https://www.weatherbit.io/) to get weat
 
 ## Plugins
 
-The following Kaholo plugins used:  
+The following Kaholo plugins are used:  
 
 * CommandLine
 
